@@ -5983,6 +5983,15 @@ only screen and (min-device-pixel-ratio: 2.5) {
   margin: 0px;
 }
 
+.footer-mail {
+  text-decoration: none;
+  color: var(--second-text-color);
+}
+
+.footer-mail:hover {
+  text-decoration: none;
+}
+
 .right-block {
   display: flex;
   flex-direction: column;
