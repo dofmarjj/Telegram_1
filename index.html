@@ -24,28 +24,24 @@
     />
     <!-- <link rel="alternate icon" href="img/favicon.ico" type="image/x-icon" /> -->
     <link href="ewfwegweggwe/assets/bootstrap.min.css" rel="stylesheet" />
-    <link
-      href="ewfwegweggwe/assets/telegram.css"
-      rel="stylesheet"
-      media="screen"
-    />
+    <link href="ewfwegweggwe/assets/main.css" rel="stylesheet" media="screen" />
   </head>
-  <body class="">
-    <div class="tgme_background_wrap">
+  <body class="body-section">
+    <div class="main_background_wrap">
       <canvas
-        id="tgme_background"
+        id="main_background"
         style="
           opacity: 0.3;
           -webkit-mask-image: url('ewfwegweggwe/assets/pattern.svg');
         "
-        class="tgme_background default"
+        class="main_background default"
         width="50"
         height="50"
         data-colors="dbddbb,6ba587,d5d88d,88b884"
       ></canvas>
-      <div class="tgme_background_pattern default"></div>
+      <div class="main_background_pattern default"></div>
     </div>
-    <div class="tgme_page_wrap">
+    <div class="main_page_wrap">
       <div class="tgme_head_wrap">
         <div class="tgme_head">
           <a href="#" class="tgme_head_brand">
@@ -184,18 +180,14 @@
         </div>
       </div>
     </div>
-    <script
-      data-cfasync="false"
-      src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
-    ></script>
-    <script src="ewfwegweggwe/assets/tgwallpaper.min.js"></script>
+    <script src="ewfwegweggwe/assets/wallpaper.min.js"></script>
     <script type="text/javascript">
-      var tme_bg = document.getElementById("tgme_background");
-      if (tme_bg) {
-        TWallpaper.init(tme_bg);
-        TWallpaper.animate(true);
+      var main_bg = document.getElementById("main_background");
+      if (main_bg) {
+        Wallpaper.init(main_bg);
+        Wallpaper.animate(true);
         window.onfocus = function () {
-          TWallpaper.update();
+          Wallpaper.update();
         };
       }
     </script>

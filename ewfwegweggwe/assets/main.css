@@ -11,6 +11,7 @@ html.lang_rtl {
   direction: rtl;
 }
 
+
 body,
 html.theme_dark body.bg_light {
   --text-color: #000;
@@ -3786,12 +3787,12 @@ video.smartphone_video_player {
 
 
 /* Telegram Me */
-.tgme_page_wrap {
+.main_page_wrap {
   font-family: 'Roboto', sans-serif;
   color: var(--text-color);
 }
 
-.tgme_background_wrap {
+.main_background_wrap {
   position: fixed;
   left: 0;
   top: 0;
@@ -3802,7 +3803,7 @@ video.smartphone_video_player {
   background: var(--body-bg);
 }
 
-.tgme_background {
+.main_background {
   position: absolute;
   left: 0;
   top: 0;
@@ -3810,9 +3811,9 @@ video.smartphone_video_player {
   height: 100%;
 }
 
-.tgme_background.default {}
+.main_background.default {}
 
-.tgme_background.motion {
+.main_background.motion {
   left: -10px;
   top: -10px;
   width: calc(100% + 20px);
@@ -3820,7 +3821,7 @@ video.smartphone_video_player {
   animation: bg-motion 10s linear infinite;
 }
 
-.tgme_background_pattern {
+.main_background_pattern {
   position: absolute;
   left: 0;
   top: 0;
@@ -3833,37 +3834,37 @@ video.smartphone_video_player {
   opacity: var(--pattern-intensity, 1);
 }
 
-.tgme_background_pattern.default {
+.main_background_pattern.default {
   opacity: 0.3;
   background-image: url('/img/tgme/pattern.svg');
 }
 
-html.theme_dark .tgme_background,
-body.bg_dark .tgme_background {
+html.theme_dark .main_background,
+body.bg_dark .main_background {
   -webkit-mask: center repeat;
   -webkit-mask-size: 420px auto;
   -webkit-mask-image: var(--pattern-url, none);
   opacity: var(--pattern-intensity, 1);
 }
 
-html.theme_dark .tgme_background.default,
-body.bg_dark .tgme_background.default {
+html.theme_dark .main_background.default,
+body.bg_dark .main_background.default {
   opacity: 0.3;
   -webkit-mask-image: url('/img/tgme/pattern.svg');
 }
 
-body.bg_light .tgme_background,
-body.bg_light .tgme_background.default {
+body.bg_light .main_background,
+body.bg_light .main_background.default {
   -webkit-mask: none;
   opacity: 1;
 }
 
-html.theme_dark .tgme_background_pattern,
-body.bg_dark .tgme_background_pattern {
+html.theme_dark .main_background_pattern,
+body.bg_dark .main_background_pattern {
   display: none;
 }
 
-body.bg_light .tgme_background_pattern {
+body.bg_light .main_background_pattern {
   display: block;
 }
 
