@@ -31,7 +31,7 @@ html.theme_dark body,
 html body.bg_dark {
   --text-color: #fff;
   --accent-btn-color: #1c93e3;
-  --body-bg: url(/img/main-desk_1.jpg);
+  --body-bg: url(./main-desk_1.jpg);
   --box-bg: #1e1e1e;
   --box-bg-blured: rgba(34, 34, 34, .84);
   --logo-color: #fff;
