@@ -30,10 +30,7 @@
     <div class="main_background_wrap">
       <canvas
         id="main_background"
-        style="
-          opacity: 0.3;
-          -webkit-mask-image: url('ewfwegweggwe/assets/pattern.svg');
-        "
+        style="opacity: 0.3; -webkit-mask-image: url('/img/main-desk_1.jpg')"
         class="main_background default"
         width="50"
         height="50"
@@ -177,16 +174,5 @@
         </div>
       </div>
     </div>
-    <script src="ewfwegweggwe/assets/wallpaper.min.js"></script>
-    <script type="text/javascript">
-      var main_bg = document.getElementById("main_background");
-      if (main_bg) {
-        Wallpaper.init(main_bg);
-        Wallpaper.animate(true);
-        window.onfocus = function () {
-          Wallpaper.update();
-        };
-      }
-    </script>
   </body>
 </html>
